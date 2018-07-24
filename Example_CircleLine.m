@@ -1,4 +1,4 @@
-dt = 0.01;                               % time step for animation
+dt = 0.01;                              % time step for animation
 t = 0:dt:15;
 pC = zeros(length(t),2);
 pC(1,:) = [4 10];                       % initial position of A
