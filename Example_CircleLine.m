@@ -27,6 +27,6 @@ xlabel('x (m)');
 ylabel('y (m)');
 for i = 1:length (t)
 plot(pC(i,1),pC(i,2),'b.');
-%pause(dt);
+pause(dt);
 end
 hold off;
