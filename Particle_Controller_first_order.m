@@ -30,7 +30,7 @@ dry = zeros(1,N);
 nu = zeros (1,N);
 % Control Gains 
 K = -1; % Swarm Gain
-Kt = 4;   % Tangetial Gain
+Kt = 3;   % Tangetial Gain
 %   K<0 for straight-line Motion (parrallel trajectories)
 %   K>0 for balanced Motion (Sum of all velocities equal zero)
 % if straight Line Motion Tangent_target:
